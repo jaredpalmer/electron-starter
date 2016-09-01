@@ -9,7 +9,7 @@ module.exports = {
     app: [
       'webpack-dev-server/client?http://localhost:8080/',
       'webpack/hot/dev-server',
-      './app.js'
+      path.resolve(__dirname, 'src')
     ]
   },
   devServer: {

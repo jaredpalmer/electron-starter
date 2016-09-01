@@ -14,7 +14,7 @@ function createWindow () {
 
   const installer = require('electron-devtools-installer'); // eslint-disable-line global-require
 
-  installer.default(installer['REACT_DEVELOPER_TOOLS'], true)
+  installer.default(installer['REACT_DEVELOPER_TOOLS'])
       .then((name) => console.log(`Added Extension:  ${name}`))
       .catch((err) => console.log('An error occurred: ', err));
   // Create the browser window.
