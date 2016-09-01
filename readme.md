@@ -1,12 +1,12 @@
-# Electron Playground
+# Electron Starter
 
-Simple electron-react playground.
+A minimal Electron starter.
 
 ### Battery Pack Included!
   - Electron
   - React
   - React Dev Tools
-  - Webpack (Babel Stage-0, JSON-loader, File-Loader for images)
+  - Webpack (Babel Stage-0, JSON-loader, File-loader for images)
   - Devtron
 
 ## Install
@@ -18,7 +18,7 @@ npm start
 ```
 
 ## Usage
-Open and edit `./src/index.js`. You'll see the window livereload.
+Open and edit `./src/index.js`. You'll feel right at home.
 
 
 ## What's Electron?

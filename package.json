@@ -1,5 +1,5 @@
 {
-  "name": "electron-playground",
+  "name": "electron-starter",
   "version": "0.1.0",
   "description": "A minimal Electron starter",
   "main": "main.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaredpalmer/electron-playground.git"
+    "url": "git+https://github.com/jaredpalmer/electron-starter.git"
   },
   "keywords": [
     "Electron",
@@ -21,9 +21,9 @@
   "twitter": "@jaredpalmer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaredpalmer/electron-playground/issues"
+    "url": "https://github.com/jaredpalmer/electron-starter/issues"
   },
-  "homepage": "https://github.com/jaredpalmer/electron-playground",
+  "homepage": "https://github.com/jaredpalmer/electron-starter",
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
