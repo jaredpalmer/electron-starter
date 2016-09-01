@@ -1,0 +1,48 @@
+{
+  "name": "electron-stater",
+  "version": "0.1.0",
+  "description": "A minimal Electron starter",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run hot\" \"npm run preview\"",
+    "hot": "webpack-dev-server",
+    "preview": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredpalmer/electron-starter.git"
+  },
+  "keywords": [
+    "Electron",
+    "React",
+    "Webpack"
+  ],
+  "author": "Jared Palmer",
+  "twitter": "@jaredpalmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredpalmer/electron-starter/issues"
+  },
+  "homepage": "https://github.com/jaredpalmer/electron-starter",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "case-sensitive-paths-webpack-plugin": "^1.1.3",
+    "concurrently": "^2.2.0",
+    "devtron": "^1.3.0",
+    "electron": "^1.3.4",
+    "electron-devtools-installer": "^2.0.1",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}
