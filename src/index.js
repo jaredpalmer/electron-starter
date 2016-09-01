@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import web from './web-tech.svg'
+import web from './browser.svg'
 
 const style = {
   fontFamily:"-apple-system, 'Helvetica Neue', sans-serif",
